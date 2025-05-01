@@ -1,0 +1,1 @@
+{"_id":{"$oid":"67b48355dcc209e1f538e6d9"},"name":"Dayal Palace","type":"7 Star","city":"Anpara","address":"Near Anpara Police Station, Anpara, Sonebhedra, Uttar Pradesh","distance":"7 KM","photos":[""],"description":"Nice hotel","rating":{"$numberInt":"5"},"rooms":[""],"cheapestPrice":{"$numberInt":"1200"},"featured":false,"__v":{"$numberInt":"0"}}
