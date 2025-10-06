@@ -74,7 +74,8 @@ Copy code
 ```bash
 git clone https://github.com/<username>/BookingHub.git
 cd BookingHub
-2. Backend Setup
+
+### 2. Backend setup
 bash
 Copy code
 cd backend
