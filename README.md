@@ -69,33 +69,32 @@ Copy code
 
 ## ⚙️ Installation and Setup
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/<username>/BookingHub.git
 cd BookingHub
 
-### 2. Backend setup
-bash
-Copy code
+2. Backend Setup
 cd backend
 npm install
 npm start
-The backend server will run on http://localhost:5000
+
+
+The backend server will run on: http://localhost:5000
 
 3. Frontend Setup
-bash
-Copy code
 cd frontend
 npm install
 npm start
-The React frontend will run on http://localhost:3000
+
+
+The React frontend will run on: http://localhost:3000
 
 🧾 Example Code Snippet
+
 Booking model (Mongoose schema):
 
-javascript
-Copy code
 const mongoose = require("mongoose");
 
 const bookingSchema = new mongoose.Schema({
@@ -107,27 +106,30 @@ const bookingSchema = new mongoose.Schema({
 
 module.exports = mongoose.model("Booking", bookingSchema);
 
+## 🔮 Future Enhancements
 
-🔮 Future Enhancements
+Add payment integration for bookings
 
-      Add payment integration for bookings
-      
-      Add admin dashboard with analytics
-      
-      Implement email notifications for booking confirmation
-      
-      Improve UI with animations and better UX
+Add admin dashboard with analytics
+
+Implement email notifications for booking confirmation
+
+Improve UI with animations and better UX
 
 🤝 Contributing
+
 Contributions are welcome!
 Feel free to fork this repo, add features or fix bugs, and submit a pull request.
 
 👨‍💻 Author
+
 Rounak Tripathi
-📧 [rounaktripathi2003@gmail.com]
+📧 rounaktripathi2003@gmail.com
+
 🌐 https://github.com/RounakTripathi
 
 🪪 License
+
 This project is licensed under the MIT License.
 
 ⭐ If you like this project, don’t forget to give it a star on GitHub!
